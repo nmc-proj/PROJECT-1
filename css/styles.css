@@ -274,8 +274,8 @@ background: blue;
 	margin-left: -220px;
 }
 .phone_img{
-	width: 1111px;
-	height: 1076px;
+	width: 100%;
+	height: 100%;
 }
 .cup{
 	display: flex;
@@ -336,10 +336,285 @@ background: blue;
 	margin-right: -100%;
 	right: -14px;
 }
-@media all and (max-width: 1024px){
-
+@media all and (max-width: 1025px){
+	body{
+	font-size: 10.24px;
 }
-@media all and (max-width: 768px){
+  h1{
+	font-size:1.6rem;
+}
+.krugi_text{
+	display: flex;
+	text-transform: uppercase;
+	text-align: center;
+}
+.div_s_krugami{
+	width: 100%;
+	height: 36rem;
+	display: flex;
+	Flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+}
+.div_s_krugami__text{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}
+.orb_field{
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+.orbs{
+	display: flex;
+	height: 64px;
+	margin: 83px;
+}
+.orb:first-child{
+background:red;
+}
+.orb:first-child:after{
+	content: "#ff0000";
+	color: #ff0000;
+}
+.orb{
+	display: flex;
+	width: 2.176rem;
+	height: 2.176rem;
+	background: #008000;
+	border-radius: 50%;
+	margin: 12.8px;
+}
+.orb:after{
+	position: relative;
+	top: 41px;
+	content: "#008000";
+	font-size: 0.5rem;
+	color: green;
+}
+.orb:last-child{
+background: blue;
+}
+.orb:last-child:after{
+	content: "#0000ff";
+	color: #0000ff;
+}
+.bg{
+	display: flex;
+}
+.twocolor_field{
+	width: 50%;
+	height: 18rem;
+	background-color: #dfe6e9;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.twocolor_field:last-child{
+	background-color: #080808;
+}
+.black_text{
+	display: flex;
+	font-size: 0.96em;
+	color: black;
+	text-transform: uppercase;
+}
+.grey_text{
+	display: flex;
+	font-size: 0.96em;
+	color: white;
+	text-transform: uppercase;
+}
+.sheets{
+	width: 100%;
+	height: 50rem;
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+.sheets__large_sheet{
+	width: 19.5rem;
+	height: 27.8rem;
+	margin-top: 10rem;
+	background-color: #ededed;
+	box-shadow: -19.2px 19.2px 51.2px 6.4px #939393;
+	border-radius: 2.56px;
+}
+.sheets__large_sheet__header{
+	margin-top: 3.2rem;
+	margin-left: 3.2rem;
+	text-transform: uppercase;
+	font-size: 10.24px
+}
+.sheets__large_sheet__text__header{
+	margin-bottom: 0.38rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10.24px
+}
+.sheets__large_sheet__text{
+	width: 13.18rem;
+	height: 5.6rem;
+	margin-top: 6.56rem;
+	margin-left: 3.2rem;
+	font-size: 0.48rem;
+	text-transform: uppercase;
+}
+.sheets__large_sheet__signature{
+	display: flex;
+	justify-content: center;
+	flex-grow: 0;
+	width: 3rem;
+	margin-top: 5.6rem;
+	margin-left: 3.2rem;
+	font-size: 0.38em;
+	border-top: 0.64px solid black;
+	text-transform: uppercase;
+}
+.sheets__little_sheet{
+	width: 177.2px;
+	height: 101px;
+  margin-top: 247px;
+  margin-left: 42.2px;
+	background-color: #ededed;
+	box-shadow: -19.2px 19.2px 35.2px 0px #939393;
+	border-radius: 2.5px;
+}
+.sheets__little_sheet__header{
+	display: flex;
+	justify-content: center;
+	margin-top: 47.3px;
+	font-size: 0.41rem;
+	text-transform: uppercase;
+}
+.sheets__medium_sheet{
+	width: 318.1px;
+	height: 159.3px;
+	position: absolute;
+  margin-left: 106.9px;
+  margin-top: 385.9px;
+	background-color: #ededed;
+	box-shadow: -26.9px 28.8px 28.8px 0px #939393;
+	border-radius: 2.56px;
+}
+.sheets__medium_sheet__header{
+	margin-top: 119.7px;
+	margin-left: 33.9px;
+	text-transform: uppercase;
+	font-size: 10.24px
+}
+.plant_mac{
+	width: 100%;
+	height: 35.2rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.plant_mac__plant{
+	position: relative;
+	width: 172.8px;
+	height: 145.3px;
+  margin-left: 99.2px;
+  margin-top: 304.6px;
+}
+.plant_img{
+	width: 178px;
+	height: 145.3px;
+}
+.plant_mac__mac{
+	display: flex;
+	position: relative;
+	width: 569.6px;
+	height: 495px;
+	margin-left: 80px;
+}
+.mac_img{
+	width: 569.6px;
+	height: 494.1px;
+}
+.phone_cup{
+	width: 100%;
+	height: 641.3px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+.phone{
+	display: flex;
+	position: absolute;
+	width: 711px;
+	height: 688.6px;
+	margin-left: -140.8px;
+}
+.phone_img{
+	width: 100%;
+	height: 100%;
+}
+.cup{
+	display: flex;
+	position: relative;
+	margin-left: 416px;
+	margin-top: 256px;
+	height: 272.6px;
+	width: 380.8px;
+}
+.cup_img{
+	height: 272.64px;
+	width: 380.8px;
+}
+.shirt{
+	width: 100%;
+	height: 503.6px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+.shirt_img{
+	width: 642.5px;
+	height: 503.6px;
+	margin-left: 19.2px;
+}
+.gratitude{
+	height: 575.3px;
+	width: 100%;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+	background-color: #000;
+}
+.gratitude__text__thankyou{
+	text-align: center;
+	color: white;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	font-size: 1.6em;
+}
+.gratitude__text__thankyou:before,
+.gratitude__text__thankyou:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 2.56px;
+	background-color: white;
+	position: relative;
+	margin-top: 16px;
+}
+.gratitude__text__thankyou:before{
+	margin-left: -100%;
+	left: -9px;
+}
+.gratitude__text__thankyou:after{
+	margin-right: -100%;
+	right: -9px;
+}
+}
+@media all and (max-width: 769px){
 	body{
 	font-size: 8px;
 }
@@ -449,11 +724,13 @@ background: blue;
 	margin-top: 2.5rem;
 	margin-left: 2.5rem;
 	text-transform: uppercase;
+	font-size: 7.68px
 }
 .sheets__large_sheet__text__header{
 	margin-bottom: 0.3rem;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 7.68px
 }
 .sheets__large_sheet__text{
 	width: 10.3rem;
@@ -504,6 +781,7 @@ background: blue;
 	margin-top: 93px;
 	margin-left: 26px;
 	text-transform: uppercase;
+	font-size: 7.68px
 }
 .plant_mac{
 	width: 100%;
@@ -526,13 +804,13 @@ background: blue;
 .plant_mac__mac{
 	display: flex;
 	position: relative;
-	width: 445px;
-	height: 386px;
+	width: 427px;
+	height: 370px;
 	margin-left: 68px;
 }
 .mac_img{
-	width: 445px;
-	height: 386px;
+	width: 427px;
+	height: 370px;
 }
 .phone_cup{
 	width: 100%;
@@ -612,7 +890,7 @@ background: blue;
 	right: -7px;
 }
 }
-@media all and (max-width: 425px){
+@media all and (max-width: 426px){
 body{	
 	font-size: 4.3px;
 }
@@ -796,13 +1074,13 @@ h1{
 .plant_mac__mac{
 	display: flex;
 	position: relative;
-	width: 240.5px;
-	height: 208.6px;
+	width: 235.8px;
+	height: 204.5px;
 	margin-left: 37px;
 }
 .mac_img{
-	width: 240.5px;
-	height: 208.6px;
+	width: 100%;
+	height: 100%;
 }
 .phone_cup{
 	width: 100%;
