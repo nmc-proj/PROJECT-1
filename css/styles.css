@@ -252,7 +252,7 @@ background: blue;
 	position: relative;
 	width: 890px;
 	height: 772px;
-	margin-left: 137px;
+	margin-left: 125px;
 }
 .mac_img{
 	width: 890px;
@@ -334,6 +334,9 @@ background: blue;
 .gratitude__text__thankyou:after{
 	margin-right: -100%;
 	right: -14px;
+}
+@media all and (max-width: 1024px){
+
 }
 @media all and (max-width: 768px){
 	body{
@@ -877,4 +880,10 @@ h1{
 	margin-right: -100%;
 	right: -3.8px;
 }
+}
+@media all and (max-width: 375px){
+
+}
+@media all and (max-width: 320px){
+	
 }
