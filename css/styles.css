@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body{
+*{
 	padding: unset;
 	margin: unset;
 	font-family: 'Montserrat', sans-serif;
@@ -73,6 +73,7 @@ h1{
 .krugi_text{
 	display: flex;
 	text-transform: uppercase;
+	text-align: center;
 }
 .div_s_krugami{
 	width: 100%;
@@ -82,6 +83,7 @@ h1{
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	text-align: center;
 }
 .div_s_krugami__text{
 	width:100%;
@@ -885,5 +887,5 @@ h1{
 
 }
 @media all and (max-width: 320px){
-	
+
 }
