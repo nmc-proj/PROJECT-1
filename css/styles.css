@@ -74,7 +74,6 @@ h1 {
 
 
 .krugi_text {
-	/*можно ли было бы назвать этот класс просто .krugi?*/
 	display: flex;
 	text-transform: uppercase;
 }
@@ -138,58 +137,6 @@ background: blue;
 	content: "#0000ff";
 	color: #0000ff;
 }
-/*
-.krugi__krug1 {
-	width: 54px;
-	height: 54px;
-	background: #2B1657;
-	border-radius: 50%;
-	margin: 20px;
-	margin-bottom: 156px;
-}
-
-.krugi__krug1:after {
-	position: absolute;
-	bottom: 131px;
-	content: "#2B1657";
-	font-size: 10pt;
-	color: #2B1657;
-}
-
-.krugi__krug2 {
-	width: 54px;
-	height: 54px;
-	background: #7E1518;
-	border-radius: 50%;
-	margin: 20px;
-	margin-bottom: 156px;
-}
-
-.krugi__krug2:after {
-	position: absolute;
-	bottom: 131px;
-	content: "#7E1518";
-	font-size: 14pt;
-	color: #7E1518;
-}
-
-.krugi__krug3 {
-	width: 54px;
-	height: 54px;
-	background: #437313;
-	border-radius: 50%;
-	margin: 20px;
-	margin-bottom: 156px;
-}
-
-.krugi__krug3:after {
-	position: absolute;
-	bottom: 131px;
-	content: "#437313";
-	font-size: 14pt;
-	color: #437313;
-}*/
-
 .bg{
 	display: flex;
 }
@@ -216,46 +163,17 @@ background: blue;
 	color: white;
 	text-transform: uppercase;
 }
-/*.seryi_fon {
-	width: 50%;
-	height: 451px;
-	background-color: #dfe6e9;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-
-h1.seryi_fon__text {
-	display: flex;
-}
-
-.chernyi_fon {
-	width: 50%;
-	height: 451px;
-	background-color: #080808;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-
-h1.chernyi_fon__text {
-	display: flex;
-	color: white;
-}*/
-
 .sheets {
 	width: 100%;
 	height: 78.1rem;
 	display: flex;
 	position: relative;
 	justify-content: center;
-	/*margin-left: -180px;*/
 }
 
 .sheets__large_sheet {
 	width: 30.6rem;
 	height: 43.5rem;
-	/*margin-left: 409px;*/
 	margin-top: 15.6rem;
 	background-color: #ededed;
 	box-shadow: -30px 30px 80px 10px #939393;
@@ -337,7 +255,6 @@ h1.chernyi_fon__text {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	/*margin-left: -50px;*/
 }
 
 .plant_mac__plant {
@@ -358,7 +275,6 @@ h1.chernyi_fon__text {
 	position: relative;
 	width: 890px;
 	height: 772px;
-	/*margin-top: 124px;*/
 	margin-left: 137px;
 }
 
@@ -393,7 +309,6 @@ h1.chernyi_fon__text {
 	display: flex;
 	position: relative;
 	justify-content: center;
-	/*margin-left: -50px;*/
 }
 
 .phone {
@@ -680,7 +595,6 @@ p.gratitude__text__thankyou:after {
 		position: relative;
 		display: flex;
 		justify-content: center;
-		/*margin-left: -50px;*/
 	}
 	
 	.plant_mac__plant {
@@ -701,7 +615,6 @@ p.gratitude__text__thankyou:after {
 		position: relative;
 		width: 445px;
 		height: 386px;
-		/*margin-top: 124px;*/
 		margin-left: 68px;
 	}
 	
@@ -736,7 +649,6 @@ p.gratitude__text__thankyou:after {
 		display: flex;
 		position: relative;
 		justify-content: center;
-		/*margin-left: -50px;*/
 	}
 	
 	.phone {
@@ -926,13 +838,11 @@ p.gratitude__text__thankyou:after {
 	}
 	.black_text{
 		display: flex;
-		/*font-size: 0.4em;*/
 		color: black;
 		text-transform: uppercase;
 	}
 	.grey_text{
 		display: flex;
-		/*font-size: 0.4em;*/
 		color: white;
 		text-transform: uppercase;
 	}
@@ -982,7 +892,6 @@ p.gratitude__text__thankyou:after {
 		width: 1.3rem;
 		margin-top: 2.37rem;
 		margin-left: 1.35rem;
-	/*	font-size: 0.16em;*/
 		border-top: 0.27px solid black;
 		text-transform: uppercase;
 	}
