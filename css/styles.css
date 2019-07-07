@@ -24,14 +24,17 @@ li{
 	display: inline;
 	text-decoration: none;
 }
-.anchor{
+.menu_button{
 	color: rgb(42, 4, 70);
 	font-weight: bold;
 	text-decoration: none;
 	padding: 1%;
 }
-.anchor:hover{
+.menu_button:hover{
 	background-color:rgba(255, 0, 85, 0.404);
+}
+.menu select {
+  display: none;
 }
 /*.wrapper{
 	width:400px;
@@ -371,7 +374,7 @@ ul{
 	border: 0.128rem solid rgb(95, 35, 192);
 	border-radius: 9.6px 9.6px;
 }
-.anchor{
+.menu_button{
 	font-size: 10.24px;
 }
 .div_s_krugami{
@@ -523,7 +526,9 @@ ul{
 	border: 0.1rem solid rgb(95, 35, 192);
 	border-radius: 7.5px 7.5px;
 }
-.anchor{
+.menu ul     { display: none; }
+.menu select { display: inline-block; }
+.menu_button{
 	font-size: 8px;
 }
 .div_s_krugami{
@@ -673,7 +678,11 @@ ul{
 	border: 0.053rem solid rgb(95, 35, 192);
 	border-radius: 4px 4px;
 }
-.anchor{
+.menu ul     { display: none; 
+}
+.menu select { display: inline-block; 
+}
+.menu_button{
 	font-size: 4.3px;
 }
 .div_s_krugami{
@@ -818,7 +827,9 @@ ul{
 	border: 0.007rem solid rgb(95, 35, 192);
 	border-radius: 3.5px 3.5px;
 }
-.anchor{
+.menu ul     { display: none; }
+.menu select { display: inline-block; }
+.menu_button{
 	font-size: 3.7px;
 }
 .div_s_krugami{
@@ -969,7 +980,9 @@ ul{
 	border: 0.04rem solid rgb(95, 35, 192);
 	border-radius: 3px 3px;
 }
-.anchor{
+.menu ul     { display: none; }
+.menu select { display: inline-block; }
+.menu_button{
 	font-size: 3.2px;
 }
 .div_s_krugami{

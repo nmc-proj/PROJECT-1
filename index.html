@@ -7,18 +7,61 @@
   <title>mockup1</title>
   <link rel="stylesheet" href="./css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300&display=swap" rel="stylesheet">
+	<script>
+	 // DOM ready
+	 $(function() {
+	   
+      // Create the dropdown base
+      $("<select />").appendTo(".menu");
+      
+      // Create default option "Go to..."
+      $("<option />", {
+         "selected": "selected",
+         "value"   : "",
+         "text"    : "Перейти"
+      }).appendTo(".menu select");
+      
+      // Populate dropdown with menu items
+      $(".menu a").each(function() {
+       var el = $(this);
+       $("<option />", {
+           "value"   : el.attr("href"),
+           "text"    : el.text()
+       }).appendTo(".menu select");
+      });
+      
+	   // To make dropdown actually work
+	   // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+      $(".menu select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+	 
+	 });
+	</script>
 </head>
 <body>
   <div class="menu">
     <ul>
-      <li><a class="anchor" href="#orbs">Круги</a></li>
-      <li><a class="anchor" href="#bg">Фоны</a></li>
-      <li><a class="anchor" href="#sheets">Папка с документами</a></li>
-      <li><a class="anchor" href="#plant_mac">Рабочий стол</a></li>
-      <li><a class="anchor" href="#phone_cup">Зона отдыха</a></li>
-      <li><a class="anchor" href="#shirt">Гардероб</a></li>
-      <li><a class="anchor" href="#gratitude">Благодарности</a></li>
+      <li><a class="menu_button" href="#orbs">Круги</a></li>
+      <li><a class="menu_button" href="#bg">Фоны</a></li>
+      <li><a class="menu_button" href="#sheets">Папка с документами</a></li>
+      <li><a class="menu_button" href="#plant_mac">Рабочий стол</a></li>
+      <li><a class="menu_button" href="#phone_cup">Зона отдыха</a></li>
+      <li><a class="menu_button" href="#shirt">Гардероб</a></li>
+      <li><a class="menu_button" href="#gratitude">Благодарности</a></li>
     </ul>
+
+    <select> 
+        <option value="" selected="selected">Перейти к</option> 
+
+        <option value="#orbs">Круги</option> 
+        <option value="#bg">Фоны</option> 
+        <option value="#sheets">Папка с документами</option> 
+        <option value="#plant_mac">Рабочий стол</option> 
+        <option value="#phone_cup">Зона отдыха</option> 
+        <option value="#shirt">Гардероб</option> 
+        <option value="#gratitude">Благодарности</option> 
+      </select> 
   </div>
   <!--<div class="wrapper">
     <div class="slider">
@@ -30,7 +73,7 @@
     </div>
   </div>-->
   <div class="div_s_krugami">
-    <div class="div_s_krugami__text"><a class="anchor" name="orbs"></a>
+    <div class="div_s_krugami__text" id="orbs">
       <h1 class="krugi_text">three circles</h1>
     </div>
     <div class="orb_field">
@@ -41,7 +84,7 @@
       </div>
     </div>
   </div>
-  <div class="bg"><a class="anchor" name="bg"></a>
+  <div class="bg" id="bg">
     <div class="twocolor_field">
       <p class="black_text">grey background</p>
     </div>
@@ -49,7 +92,7 @@
       <p class="grey_text">black background</p>
     </div>
   </div>
-  <div class="sheets"><a class="anchor" name="sheets"></a>
+  <div class="sheets" id="sheets">
     <div class="sheets__large_sheet">
       <div class="sheets__large_sheet__header">
         big sheet
@@ -77,7 +120,7 @@
       </div>
     </div>
   </div>
-  <div class="plant_mac"><a class="anchor" name="plant_mac"></a>
+  <div class="plant_mac" id="plant_mac">
     <div class="plant_mac__plant">
       <img class="plant_img" src="img/plant.png">
     </div>
@@ -85,7 +128,7 @@
       <img class="mac_img" src="img/imac.png">
     </div>
   </div>
-  <div class="phone_cup"><a class="anchor" name="phone_cup"></a>
+  <div class="phone_cup" id="phone_cup">
     <div class="phone">
       <img class="phone_img" src="img/iphone.png">
     </div>
@@ -93,10 +136,10 @@
       <img class="cup_img" src="img/cup.png">
     </div>
   </div>
-  <div class="shirt"><a class="anchor" name="shirt"></a>
+  <div class="shirt" id="shirt">
     <img class="shirt_img" src="img/shirt.png">
   </div>
-  <div class="gratitude"><a class="anchor" name="gratitude"></a>
+  <div class="gratitude" id="gratitude">
     <p class="gratitude__text__thankyou">
       THANK YOU
     </p>
