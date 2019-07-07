@@ -1,46 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>mockup1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300&display=swap" rel="stylesheet">
-	<script>
-	 // DOM ready
-	 $(function() {
-	   
-      // Create the dropdown base
-      $("<select />").appendTo(".menu");
-      
-      // Create default option "Go to..."
-      $("<option />", {
-         "selected": "selected",
-         "value"   : "",
-         "text"    : "Перейти"
-      }).appendTo(".menu select");
-      
-      // Populate dropdown with menu items
-      $(".menu a").each(function() {
-       var el = $(this);
-       $("<option />", {
-           "value"   : el.attr("href"),
-           "text"    : el.text()
-       }).appendTo(".menu select");
-      });
-      
-	   // To make dropdown actually work
-	   // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
-      $(".menu select").change(function() {
-        window.location = $(this).find("option:selected").val();
-      });
-	 
-	 });
-	</script>
+
+
 </head>
+
 <body>
-  <div class="menu">
+  <!--<div class="menu">
     <ul>
       <li><a class="menu_button" href="#orbs">Круги</a></li>
       <li><a class="menu_button" href="#bg">Фоны</a></li>
@@ -50,20 +25,8 @@
       <li><a class="menu_button" href="#shirt">Гардероб</a></li>
       <li><a class="menu_button" href="#gratitude">Благодарности</a></li>
     </ul>
-
-    <select> 
-        <option value="" selected="selected">Перейти к</option> 
-
-        <option value="#orbs">Круги</option> 
-        <option value="#bg">Фоны</option> 
-        <option value="#sheets">Папка с документами</option> 
-        <option value="#plant_mac">Рабочий стол</option> 
-        <option value="#phone_cup">Зона отдыха</option> 
-        <option value="#shirt">Гардероб</option> 
-        <option value="#gratitude">Благодарности</option> 
-      </select> 
   </div>
-  <!--<div class="wrapper">
+  <div class="wrapper">
     <div class="slider">
       <div class="block"><img class="airdrop" src="img/airdrop.gif"></div>
       <div class="block"><img class="spider-pig" src="img/spider-pig.gif"></div>
@@ -72,6 +35,43 @@
       <div class="block"><img class="dog_in_the_water" src="img/dog_in_the_water.gif"></div>
     </div>
   </div>-->
+
+  <nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img class="nav_alpaka" src="img/icons8-альпака-64.png">Навигация</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#orbs">Круги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bg">Фоны</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sheets">Документы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#plant_mac">Рабочий стол</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#phone_cup">Комната отдыха</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shirt">Гардероб</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gratitude">Благодарности</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
   <div class="div_s_krugami">
     <div class="div_s_krugami__text" id="orbs">
       <h1 class="krugi_text">three circles</h1>
@@ -144,5 +144,15 @@
       THANK YOU
     </p>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
