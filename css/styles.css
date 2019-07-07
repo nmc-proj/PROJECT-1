@@ -343,7 +343,6 @@ background: blue;
   h1{
 	font-size:1.6rem;
 }
-}
 .div_s_krugami{
 	height: 36rem;
 }
@@ -499,118 +498,48 @@ background: blue;
 	body{
 	font-size: 8px;
 }
-  h1{
-	font-size:1.25rem;
-}
-.krugi_text{
-	display: flex;
-	text-transform: uppercase;
-}
 .div_s_krugami{
-	width: 100%;
 	height: 28.12rem;
-	display: flex;
-	Flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-}
-.div_s_krugami__text{
-	width:100%;
-	display: flex;
-	justify-content: center;
-	position: absolute;
-}
-.orb_field{
-	height: 100%;
-	display: flex;
-	align-items: flex-end;
 }
 .orbs{
-	display: flex;
 	height: 50px;
 	margin: 65px;
 }
-.orb:first-child{
-background:red;
-}
-.orb:first-child:after{
-	content: "#ff0000";
-	color: #ff0000;
-}
 .orb{
-	display: flex;
 	width: 1.7rem;
 	height: 1.7rem;
-	background: #008000;
-	border-radius: 50%;
 	margin: 10px;
 }
 .orb:after{
-	position: relative;
 	top: 32px;
-	content: "#008000";
 	font-size: 0.4rem;
-	color: green;
-}
-.orb:last-child{
-background: blue;
-}
-.orb:last-child:after{
-	content: "#0000ff";
-	color: #0000ff;
-}
-.bg{
-	display: flex;
 }
 .twocolor_field{
-	width: 50%;
 	height: 14.1rem;
-	background-color: #dfe6e9;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-.twocolor_field:last-child{
-	background-color: #080808;
 }
 .black_text{
-	display: flex;
 	font-size: 0.75em;
-	color: black;
-	text-transform: uppercase;
 }
 .grey_text{
-	display: flex;
 	font-size: 0.75em;
-	color: white;
-	text-transform: uppercase;
 }
 .sheets{
-	width: 100%;
   height: 39rem;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .sheets__large_sheet{
 	width: 15.3rem;
 	height: 21.7rem;
 	margin-top: 7.8rem;
-	background-color: #ededed;
 	box-shadow: -15px 15px 40px 5px #939393;
 	border-radius: 2px;
 }
 .sheets__large_sheet__header{
 	margin-top: 2.5rem;
 	margin-left: 2.5rem;
-	text-transform: uppercase;
 	font-size: 7.68px
 }
 .sheets__large_sheet__text__header{
 	margin-bottom: 0.3rem;
-	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 7.68px
 }
 .sheets__large_sheet__text{
@@ -619,60 +548,43 @@ background: blue;
 	margin-top: 5.12rem;
 	margin-left: 2.5rem;
 	font-size: 0.37rem;
-	text-transform: uppercase;
 }
 .sheets__large_sheet__signature{
-	display: flex;
-	justify-content: center;
-	flex-grow: 0;
 	width: 2.37rem;
 	margin-top: 4.4rem;
 	margin-left: 2.5rem;
 	font-size: 0.3em;
 	border-top: 0.5px solid black;
-	text-transform: uppercase;
 }
 .sheets__little_sheet{
 	width: 139px;
 	height: 79px;
 	margin-top: 193px;
 	margin-left: 33px;
-	background-color: #ededed;
 	box-shadow: -15px 15px 27px 0px #939393;
 	border-radius: 2px;
 }
 .sheets__little_sheet__header{
-	display: flex;
-	justify-content: center;
 	margin-top: 37px;
 	font-size: 0.32rem;
-	text-transform: uppercase;
 }
 .sheets__medium_sheet{
 	width: 248px;
 	height: 124px;
-	position: absolute;
 	margin-left: 83px;
 	margin-top: 301px;
-	background-color: #ededed;
 	box-shadow: -21px 22px 22px 0px #939393;
 	border-radius: 2px;
 }
 .sheets__medium_sheet__header{
 	margin-top: 93px;
 	margin-left: 26px;
-	text-transform: uppercase;
 	font-size: 7.68px
 }
 .plant_mac{
-	width: 100%;
 	height: 27rem;
-	position: relative;
-	display: flex;
-	justify-content: center;
 }
 .plant_mac__plant{
-	position: relative;
 	width: 135px;
 	height: 113px;
 	margin-left: 77px;
@@ -683,8 +595,6 @@ background: blue;
 	height: 113px;
 }
 .plant_mac__mac{
-	display: flex;
-	position: relative;
 	width: 427px;
 	height: 370px;
 	margin-left: 68px;
@@ -694,15 +604,9 @@ background: blue;
 	height: 370px;
 }
 .phone_cup{
-	width: 100%;
 	height: 501px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .phone{
-	display: flex;
-	position: absolute;
 	width: 555px;
 	height: 538px;
 	margin-left: -110px;
@@ -712,8 +616,6 @@ background: blue;
 	height: 538px;
 }
 .cup{
-	display: flex;
-	position: relative;
 	margin-left: 325px;
 	margin-top: 200px;
 	height: 213px;
@@ -724,11 +626,7 @@ background: blue;
 	width: 292px;
 }	
 .shirt{
-	width: 100%;
 	height: 393px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .shirt_img{
 	width: 502px;
@@ -737,37 +635,19 @@ background: blue;
 }
 .gratitude{
 	height: 450px;
-	width: 100%;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-content: center;
-	background-color: #000;
 }
 .gratitude__text__thankyou{
-	text-align: center;
-	color: white;
-	display: flex;
-	align-self: center;
-	justify-content: center;
 	font-size: 1.25em;
 }
 .gratitude__text__thankyou:before,
 .gratitude__text__thankyou:after{
-	content: "";
-	display: inline-block;
-	width: 100%;
 	height: 1px;
-	background-color: white;
-	position: relative;
 	margin-top: 10px;
 }	
 .gratitude__text__thankyou:before{
-	margin-left: -100%;
 	left: -7px;
 }
 .gratitude__text__thankyou:after{
-	margin-right: -100%;
 	right: -7px;
 }
 }
