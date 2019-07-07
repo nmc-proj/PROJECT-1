@@ -256,8 +256,8 @@ background: blue;
 	margin-left: 125px;
 }
 .mac_img{
-	width: 890px;
-	height: 772px;
+	width: 100%;
+	height: 100%;
 }
 .phone_cup{
 	width: 100%;
@@ -445,10 +445,6 @@ background: blue;
 	height: 495px;
 	margin-left: 80px;
 }
-.mac_img{
-	width: 569.6px;
-	height: 494.1px;
-}
 .phone_cup{
 	height: 641.3px;
 }
@@ -599,10 +595,6 @@ background: blue;
 	height: 370px;
 	margin-left: 68px;
 }
-.mac_img{
-	width: 427px;
-	height: 370px;
-}
 .phone_cup{
 	height: 501px;
 }
@@ -658,113 +650,42 @@ body{
 h1{
 	font-size:0.6rem;
 }
-.krugi_text{
-	display: flex;
-	text-transform: uppercase;
-}
 .div_s_krugami{
-	width: 100%;
 	height: 15.6rem;
-	display: flex;
-  Flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-}
-.div_s_krugami__text{
-	width:100%;
-	display: flex;
-	justify-content: center;
-	position: absolute;
-}
-.orb_field{
-	height: 100%;
-	display: flex;
-	align-items: flex-end;
 }
 .orbs{
-	display: flex;
 	height: 27.8px;
 	margin: 36px;
 }
-.orb:first-child{
-	background:red;
-}
-.orb:first-child:after{
-	content: "#ff0000";
-	color: #ff0000;
-}
 .orb{
-	display: flex;
 	width: 0.95rem;
 	height: 0.95rem;
-	background: #008000;
-	border-radius: 50%;
 	margin: 5.5px;
 }
 .orb:after{
-	position: relative;
 	top: 17.7px;
-	content: "#008000";
 	font-size: 0.22rem;
-	color: green;
-}
-.orb:last-child{
-	background: blue;
-}
-.orb:last-child:after{
-	content: "#0000ff";
-	color: #0000ff;
-}
-.bg{
-	display: flex;
 }
 .twocolor_field{
-	width: 50%;
 	height: 7.6rem;
-	background-color: #dfe6e9;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-.twocolor_field:last-child{
-	background-color: #080808;
-}
-.black_text{
-	display: flex;
-	color: black;
-	text-transform: uppercase;
-}
-.grey_text{
-	display: flex;
-	color: white;
-	text-transform: uppercase;
 }
 .sheets{
-	width: 100%;
 	height: 21.1rem;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .sheets__large_sheet{
 	width: 8.2rem;
 	height: 11.7rem;
 	margin-top: 4.2rem;
-	background-color: #ededed;
 	box-shadow: -8.1px 8.1px 21.6px 2.7px #939393;
 	border-radius: 1px;
 }
 .sheets__large_sheet__header{
 	margin-top: 1.35rem;
 	margin-left: 1.35rem;
-	text-transform: uppercase;
 	font-size: 4px;
 }
 .sheets__large_sheet__text__header{
 	margin-bottom: 0.16rem;
-	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 4px;
 }
 .sheets__large_sheet__text{
@@ -773,17 +694,12 @@ h1{
 	margin-top: 2.77rem;
 	margin-left: 1.35rem;
 	font-size: 0.2rem;
-	text-transform: uppercase;
 }
 .sheets__large_sheet__signature{
-	display: flex;
-	justify-content: center;
-	flex-grow: 0;
 	width: 1.3rem;
 	margin-top: 2.37rem;
 	margin-left: 1.35rem;
 	border-top: 0.27px solid black;
-	text-transform: uppercase;
 	font-size: 0.17rem;
 }
 .sheets__little_sheet{
@@ -791,42 +707,31 @@ h1{
 	height: 42.7px;
 	margin-top: 104.3px;
 	margin-left: 17.8px;
-	background-color: #ededed;
 	box-shadow: -8.1px 8.1px 14.8px 0px #939393;
 	border-radius: 1px;
 }
 .sheets__little_sheet__header{
-	display: flex;
-	justify-content: center;
 	margin-top: 20px;
 	font-size: 0.17rem;
-	text-transform: uppercase;
 }
 .sheets__medium_sheet{
 	width: 134.3px;
 	height: 67.3px;
-	position: absolute;
 	margin-left: 45.1px;
 	margin-top: 162px;
-	background-color: #ededed;
 	box-shadow: -11.3px 12.1px 12.1px 0px #939393;
 	border-radius: 4px;
 }
 .sheets__medium_sheet__header{
 	margin-top: 50.5px;
 	margin-left: 14.3px;
-	text-transform: uppercase;
 	font-size: 4px;
 }
 .plant_mac{
 	width: 100%;
 	height: 14.8rem;
-	position: relative;
-	display: flex;
-	justify-content: center;
 }
 .plant_mac__plant{
-	position: relative;
 	width: 73px;
 	height: 61.3px;
 	margin-left: 42px;
@@ -837,26 +742,14 @@ h1{
 	height: 61.3px;
 }
 .plant_mac__mac{
-	display: flex;
-	position: relative;
 	width: 235.8px;
 	height: 204.5px;
 	margin-left: 37px;
 }
-.mac_img{
-	width: 100%;
-	height: 100%;
-}
 .phone_cup{
-	width: 100%;
 	height: 270.8px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .phone{
-	display: flex;
-	position: absolute;
 	width: 300.2px;
 	height: 290.8px;
 	margin-left: -59.4px;
@@ -866,8 +759,6 @@ h1{
 	height: 290.8px;
 }
 .cup{
-	display: flex;
-	position: relative;
 	margin-left: 175.67px;
 	margin-top: 108.108px;
 	height: 115.1px;
@@ -878,11 +769,7 @@ h1{
 	width: 160.8px;
 }
 .shirt{
-	width: 100%;
 	height: 212.7px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .shirt_img{
 	width: 271.3px;
@@ -891,37 +778,19 @@ h1{
 }
 .gratitude{
 	height: 243px;
-	width: 100%;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-content: center;
-	background-color: #000;
 }	
 .gratitude__text__thankyou{
-	text-align: center;
-		color: white;
-		display: flex;
-		align-self: center;
-		justify-content: center;
 		font-size: 0.67em;
 	}
 .gratitude__text__thankyou:before,
 .gratitude__text__thankyou:after{
-	content: "";
-	display: inline-block;
-	width: 100%;
 	height: 0.5px;
-	background-color: white;
-	position: relative;
 	margin-top: 7px;
 }
 .gratitude__text__thankyou:before{
-	margin-left: -100%;
 	left: -3.8px;
 }
 .gratitude__text__thankyou:after{
-	margin-right: -100%;
 	right: -3.8px;
 }
 }
