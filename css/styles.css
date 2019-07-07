@@ -245,8 +245,8 @@ background: blue;
   margin-top: 476px;
 }
 .plant_img{
-	width: 278px;
-	height: 227px;
+	width: 100%;
+	height: 100%;
 }
 .plant_mac__mac{
 	display: flex;
@@ -286,8 +286,8 @@ background: blue;
 	width: 595px;
 }
 .cup_img{
-	height: 426px;
-	width: 595px;
+	width: 100%;
+	height: 100%;
 }
 .shirt{
 	width: 100%;
@@ -298,7 +298,7 @@ background: blue;
 }
 .shirt_img{
 	width: 1004px;
-	height: 787px;
+	height: 100%;
 	margin-left: 30px;
 }
 .gratitude{
@@ -436,10 +436,6 @@ background: blue;
   margin-left: 99.2px;
   margin-top: 304.6px;
 }
-.plant_img{
-	width: 178px;
-	height: 145.3px;
-}
 .plant_mac__mac{
 	width: 569.6px;
 	height: 495px;
@@ -459,16 +455,11 @@ background: blue;
 	height: 272.6px;
 	width: 380.8px;
 }
-.cup_img{
-	height: 272.64px;
-	width: 380.8px;
-}
 .shirt{
 	height: 503.6px;
 }
 .shirt_img{
 	width: 642.5px;
-	height: 503.6px;
 	margin-left: 19.2px;
 }
 .gratitude{
@@ -586,10 +577,6 @@ background: blue;
 	margin-left: 77px;
 	margin-top: 238px;
 }
-.plant_img{
-	width: 139px;
-	height: 113px;
-}
 .plant_mac__mac{
 	width: 427px;
 	height: 370px;
@@ -603,26 +590,17 @@ background: blue;
 	height: 538px;
 	margin-left: -110px;
 }
-.phone_img{
-	width: 555px;
-	height: 538px;
-}
 .cup{
 	margin-left: 325px;
 	margin-top: 200px;
 	height: 213px;
 	width: 297px;
 }
-.cup_img{
-	height: 213px;
-	width: 292px;
-}	
 .shirt{
 	height: 393px;
 }
 .shirt_img{
 	width: 502px;
-	height: 393px;
 	margin-left: 15px;
 }
 .gratitude{
@@ -737,10 +715,6 @@ h1{
 	margin-left: 42px;
 	margin-top: 128.6px;
 }
-.plant_img{
-	width: 75px;
-	height: 61.3px;
-}
 .plant_mac__mac{
 	width: 235.8px;
 	height: 204.5px;
@@ -754,17 +728,9 @@ h1{
 	height: 290.8px;
 	margin-left: -59.4px;
 }
-.phone_img{
-	width: 300.2px;
-	height: 290.8px;
-}
 .cup{
 	margin-left: 175.67px;
 	margin-top: 108.108px;
-	height: 115.1px;
-	width: 160.8px;
-}
-.cup_img{
 	height: 115.1px;
 	width: 160.8px;
 }
@@ -773,7 +739,6 @@ h1{
 }
 .shirt_img{
 	width: 271.3px;
-	height: 212.7px;
 	margin-left: 8.1px;
 }
 .gratitude{
@@ -801,117 +766,48 @@ body{
 h1{
 	font-size: 0.6rem;
 }
-.krugi_text{
-	display: flex;
-	text-transform: uppercase;
-	text-align: center;
-}
 .div_s_krugami{
-	width: 100%;
 	height: 13.1rem;
-	display: flex;
-	Flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	text-align: center;
-}
-.div_s_krugami__text{
-	width:100%;
-	display: flex;
-	justify-content: center;
-	position: absolute;
-}
-.orb_field{
-	height: 100%;
-	display: flex;
-	align-items: flex-end;
 }
 .orbs{
-	display: flex;
 	height: 23.4px;
 	margin: 7px;
 }
-.orb:first-child{
-background:red;
-}
-.orb:first-child:after{
-	content: "#ff0000";
-	color: #ff0000;
-}
 .orb{
-	display: flex;
 	width: 0.8rem;
 	height: 0.8rem;
-	background: #008000;
-	border-radius: 50%;
 	margin: 4.7px;
 }
 .orb:after{
-	position: relative;
 	top: 15px;
-	content: "#008000";
 	font-size: 0.18rem;
-	color: green;
-}
-.orb:last-child{
-background: blue;
-}
-.orb:last-child:after{
-	content: "#0000ff";
-	color: #0000ff;
-}
-.bg{
-	display: flex;
 }
 .twocolor_field{
-	width: 50%;
 	height: 6.6rem;
-	background-color: #dfe6e9;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-.twocolor_field:last-child{
-	background-color: #080808;
 }
 .black_text{
-	display: flex;
 	font-size: 0.35em;
-	color: black;
-	text-transform: uppercase;
 }
 .grey_text{
-	display: flex;
 	font-size: 0.35em;
-	color: white;
-	text-transform: uppercase;
 }
 .sheets{
-	width: 100%;
 	height: 18.2rem;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .sheets__large_sheet{
 	width: 7.16rem;
 	height: 10.17rem;
 	margin-top: 3.65em;
-	background-color: #ededed;
 	box-shadow: -7px 7px 18.7px 2.3px #939393;
 	border-radius: 0.9px;
 }
 .sheets__large_sheet__header{
 	margin-top: 1.17rem;
 	margin-left: 1.17rem;
-	text-transform: uppercase;
 	font-size: 3.7px;
 }
 .sheets__large_sheet__text__header{
 	margin-bottom: 0.14rem;
-	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 3.7px;
 }
 .sheets__large_sheet__text{
@@ -920,155 +816,90 @@ background: blue;
 	margin-top: 2.4rem;
 	margin-left: 1.17rem;
 	font-size: 0.17rem;
-	text-transform: uppercase;
 }
 .sheets__large_sheet__signature{
-	display: flex;
-	justify-content: center;
-	flex-grow: 0;
 	width: 1.1rem;
 	margin-top: 2rem;
 	margin-left: 1.17rem;
 	font-size: 0.14em;
 	border-top: 0.23px solid black;
-	text-transform: uppercase;
 }
 .sheets__little_sheet{
 	width: 64.8px;
 	height: 37px;
   margin-top: 90.34px;
   margin-left: 15.4px;
-	background-color: #ededed;
 	box-shadow: -7px 7px 12.8px 0px #939393;
 	border-radius: 0.9px;
 }
 .sheets__little_sheet__header{
-	display: flex;
-	justify-content: center;
 	margin-top: 17.3px;
 	font-size: 0.15rem;
-	text-transform: uppercase;
 }
 .sheets__medium_sheet{
 	width: 116.3px;
 	height: 58.26px;
-	position: absolute;
   margin-left: 39px;
   margin-top: 141.1px;
-	background-color: #ededed;
 	box-shadow: -9.8px 10.5px 10.5px 0px #939393;
 	border-radius: 0.9px;
 }
 .sheets__medium_sheet__header{
 	margin-top: 43.7px;
 	margin-left: 12.4px;
-	text-transform: uppercase;
 	font-size: 3.7px;
 }
 .plant_mac{
-	width: 100%;
 	height: 12.87rem;
-	position: relative;
-	display: flex;
-	justify-content: center;
 }
 .plant_mac__plant{
-	position: relative;
 	width: 63.18px;
 	height: 53.1px;
   margin-left: 36.27px;
   margin-top: 111.4px;
 }
-.plant_img{
-	width: 65px;
-	height: 53.1px;
-}
 .plant_mac__mac{
-	display: flex;
-	position: relative;
 	width: 203.2px;
 	height: 180.64px;
 	margin-left: 29.25px;
 }
-.mac_img{
-	width: 208.2px;
-	height: 180.64px;
-}
 .phone_cup{
 	width: 100%;
 	height: 234.4px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .phone{
-	display: flex;
-	position: absolute;
 	width: 260px;
 	height: 251.8px;
 	margin-left: -51.5px;
 }
-.phone_img{
-	width: 100%;
-	height: 100%;
-}
 .cup{
-	display: flex;
-	position: relative;
 	margin-left: 152.1px;
 	margin-top: 93.6px;
 	height: 99.7px;
 	width: 139.2px;
 }
-.cup_img{
-	height: 99.7px;
-	width: 139.2px;
-}
 .shirt{
-	width: 100%;
 	height: 184.15px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .shirt_img{
 	width: 235px;
-	height: 184.15px;
 	margin-left: 7px;
 }
 .gratitude{
 	height: 210.3px;
-	width: 100%;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-content: center;
-	background-color: #000;
 }
 .gratitude__text__thankyou{
-	text-align: center;
-	color: white;
-	display: flex;
-	align-self: center;
-	justify-content: center;
 	font-size: 0.58em;
 }
 .gratitude__text__thankyou:before,
 .gratitude__text__thankyou:after{
-	content: "";
-	display: inline-block;
-	width: 100%;
 	height: 0.9px;
-	background-color: white;
-	position: relative;
 	margin-top: 5px;
 }
 .gratitude__text__thankyou:before{
-	margin-left: -100%;
 	left: -3.27px;
 }
 .gratitude__text__thankyou:after{
-	margin-right: -100%;
 	right: -3.27px;
 }
 }
@@ -1079,117 +910,48 @@ body{
 h1{
 	font-size: 0.5rem;
 }
-.krugi_text{
-	display: flex;
-	text-transform: uppercase;
-	text-align: center;
-}
 .div_s_krugami{
-	width: 100%;
 	height: 11.25rem;
-	display: flex;
-	Flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	text-align: center;
-}
-.div_s_krugami__text{
-	width:100%;
-	display: flex;
-	justify-content: center;
-	position: absolute;
-}
-.orb_field{
-	height: 100%;
-	display: flex;
-	align-items: flex-end;
 }
 .orbs{
-	display: flex;
 	height: 20px;
 	margin: 5.2px;
 }
-.orb:first-child{
-background:red;
-}
-.orb:first-child:after{
-	content: "#ff0000";
-	color: #ff0000;
-}
 .orb{
-	display: flex;
 	width: 0.68rem;
 	height: 0.68rem;
-	background: #008000;
-	border-radius: 50%;
 	margin: 4px;
 }
 .orb:after{
-	position: relative;
 	top: 12.8px;
-	content: "#008000";
 	font-size: 0.16rem;
-	color: green;
-}
-.orb:last-child{
-background: blue;
-}
-.orb:last-child:after{
-	content: "#0000ff";
-	color: #0000ff;
-}
-.bg{
-	display: flex;
 }
 .twocolor_field{
-	width: 50%;
 	height: 5.64rem;
-	background-color: #dfe6e9;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-.twocolor_field:last-child{
-	background-color: #080808;
 }
 .black_text{
-	display: flex;
 	font-size: 0.3em;
-	color: black;
-	text-transform: uppercase;
 }
 .grey_text{
-	display: flex;
 	font-size: 0.3em;
-	color: white;
-	text-transform: uppercase;
 }
 .sheets{
-	width: 100%;
 	height: 15.62rem;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .sheets__large_sheet{
 	width: 6.12rem;
 	height: 8.7rem;
 	margin-top: 3.12rem;
-	background-color: #ededed;
 	box-shadow: -6px 6px 16px 2px #939393;
 	border-radius: 0.8px;
 }
 .sheets__large_sheet__header{
 	margin-top: 1rem;
 	margin-left: 1rem;
-	text-transform: uppercase;
 	font-size: 3.2px;
 }
 .sheets__large_sheet__text__header{
 	margin-bottom: 0.12rem;
-	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 3.2px;
 }
 .sheets__large_sheet__text{
@@ -1198,155 +960,89 @@ background: blue;
 	margin-top: 2.5rem;
 	margin-left: 1rem;
 	font-size: 0.15rem;
-	text-transform: uppercase;
 }
 .sheets__large_sheet__signature{
-	display: flex;
-	justify-content: center;
-	flex-grow: 0;
 	width: 0.95rem;
 	margin-top: 1.76rem;
 	margin-left: 1rem;
 	font-size: 0.12em;
 	border-top: 0.2px solid black;
-	text-transform: uppercase;
 }
 .sheets__little_sheet{
 	width: 55.4px;
 	height: 31.6px;
   margin-top: 77.2px;
   margin-left: 13.2px;
-	background-color: #ededed;
 	box-shadow: -6px 6px 11px 0px #939393;
 	border-radius: 0.8px;
 }
 .sheets__little_sheet__header{
-	display: flex;
-	justify-content: center;
 	margin-top: 14.8px;
 	font-size: 0.13rem;
-	text-transform: uppercase;
 }
 .sheets__medium_sheet{
 	width: 99.4px;
 	height: 49.8px;
-	position: absolute;
   margin-left: 33.4px;
   margin-top: 120.6px;
-	background-color: #ededed;
 	box-shadow: -8.4px 9px 9px 0px #939393;
 	border-radius: 0.8px;
 }
 .sheets__medium_sheet__header{
 	margin-top: 37.4px;
 	margin-left: 10.6px;
-	text-transform: uppercase;
 	font-size: 3.2px;
 }
 .plant_mac{
-	width: 100%;
 	height: 11rem;
-	position: relative;
-	display: flex;
-	justify-content: center;
 }
 .plant_mac__plant{
-	position: relative;
 	width: 54px;
 	height: 45.4px;
   margin-left: 31px;
   margin-top: 95.2px;
 }
-.plant_img{
-	width: 55.6px;
-	height: 45.4px;
-}
 .plant_mac__mac{
-	display: flex;
-	position: relative;
 	width: 178px;
 	height: 154.4px;
 	margin-left: 25px;
 }
-.mac_img{
-	width: 178px;
-	height: 154.4px;
-}
 .phone_cup{
-	width: 100%;
 	height: 200.5px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .phone{
-	display: flex;
-	position: absolute;
 	width: 222.2px;
 	height: 215.2px;
 	margin-left: -44px;
 }
-.phone_img{
-	width: 100%;
-	height: 100%;
-}
 .cup{
-	display: flex;
-	position: relative;
 	margin-left: 130px;
 	margin-top: 80px;
 	height: 85.2px;
 	width: 119px;
 }
-.cup_img{
-	height: 85.2px;
-	width: 119px;
-}
 .shirt{
-	width: 100%;
 	height: 157.4px;
-	display: flex;
-	position: relative;
-	justify-content: center;
 }
 .shirt_img{
 	width: 200.8px;
-	height: 157.4px;
 	margin-left: 6px;
 }
 .gratitude{
 	height: 179.8px;
-	width: 100%;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-content: center;
-	background-color: #000;
 }
 .gratitude__text__thankyou{
-	text-align: center;
-	color: white;
-	display: flex;
-	align-self: center;
-	justify-content: center;
 	font-size: 0.5em;
 }
 .gratitude__text__thankyou:before,
 .gratitude__text__thankyou:after{
-	content: "";
-	display: inline-block;
-	width: 100%;
 	height: 0.8px;
-	background-color: white;
-	position: relative;
 	margin-top: 5px;
 }
 .gratitude__text__thankyou:before{
-	margin-left: -100%;
 	left: -2.8px;
 }
 .gratitude__text__thankyou:after{
-	margin-right: -100%;
 	right: -2.8px;
 }
 }
