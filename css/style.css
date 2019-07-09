@@ -240,6 +240,7 @@ background: blue;
 	height: 759px;
 	margin-left: -355px;
 	margin-top: 116px;
+	display: none;
 }
 .phone_img_no-shadow{
 	width: 100%;
@@ -304,11 +305,13 @@ background: blue;
 	margin-right: -100%;
 	right: -14px;
 }
-@media all and (min-width:1441px){
+/*@media (min-width:1441px){
 	.phone{
 		display:none;
 	}
-}
+.phone_no-shadow{
+	display: inline;
+}*/
 @media all and (max-width: 1025px){
 	body{
 	font-size: 10.24px;
