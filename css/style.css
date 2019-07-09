@@ -233,6 +233,18 @@ background: blue;
 	width: 100%;
 	height: 100%;
 }
+.phone_no-shadow{
+	display: flex;
+	position: absolute;
+	width: 282px;
+	height: 759px;
+	margin-left: -355px;
+	margin-top: 116px;
+}
+.phone_img_no-shadow{
+	width: 100%;
+	height: 100%;
+}
 .cup{
 	display: flex;
 	position: relative;
@@ -291,6 +303,11 @@ background: blue;
 .gratitude__text__thankyou:after{
 	margin-right: -100%;
 	right: -14px;
+}
+@media all and (min-width:1441px){
+	.phone{
+		display:none;
+	}
 }
 @media all and (max-width: 1025px){
 	body{
@@ -408,6 +425,9 @@ background: blue;
 	width: 711px;
 	height: 688.6px;
 	margin-left: -157.8px;
+}
+.phone_no-shadow{
+	display:none;
 }
 .cup{
 	margin-left: 416px;
@@ -553,6 +573,9 @@ background: blue;
 	width: 555px;
 	height: 538px;
 	margin-left: -110px;
+}
+.phone_no-shadow{
+	display:none;
 }
 .cup{
 	margin-left: 325px;
@@ -725,6 +748,9 @@ h1{
 	height: 290.8px;
 	margin-left: -63.4px;
 }
+.phone_no-shadow{
+	display:none;
+}
 .cup{
 	margin-left: 175.67px;
 	margin-top: 108.108px;
@@ -891,6 +917,9 @@ h1{
 	height: 251.8px;
 	margin-left: -59.5px;
 }
+.phone_no-shadow{
+	display:none;
+}
 .cup{
 	margin-left: 152.1px;
 	margin-top: 93.6px;
@@ -1055,6 +1084,9 @@ h1{
 	width: 222.2px;
 	height: 215.2px;
 	margin-left: -49px;
+}
+.phone_no-shadow{
+	display:none;
 }
 .cup{
 	margin-left: 130px;
