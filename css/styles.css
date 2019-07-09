@@ -9,6 +9,9 @@
 h1{
 	font-size: 2.5rem;
 }
+p{
+	margin:0px;
+}
 .nav_alpaka{
 	width: 64px;
 	height: 64px;
@@ -564,7 +567,7 @@ background: blue;
 .gratitude__text__thankyou:before,
 .gratitude__text__thankyou:after{
 	height: 1px;
-	margin-top: 10px;
+	margin-top: 14px;
 }	
 .gratitude__text__thankyou:before{
 	left: -7px;
@@ -584,6 +587,24 @@ h1{
 	width: 17px;
 	height: 17px;
 }
+.navbar{
+	padding: 0.35rem 1rem;
+}
+.navbar-brand{
+	font-size: 0.6rem;
+}
+a.nav-link{
+	font-size: 0.6rem;
+}
+.navbar-toggler {
+	padding: .4rem .4rem;
+	line-height: 0;
+}
+.navbar-toggler-icon {
+	display: inline-block;
+	width: 0.75em;
+	height: 0.75em;
+}
 .div_s_krugami{
 	height: 15.6rem;
 }
@@ -602,6 +623,12 @@ h1{
 }
 .twocolor_field{
 	height: 7.6rem;
+}
+.black_text{
+	font-size: 0.4em;
+}
+.grey_text{
+	font-size: 0.4em;
 }
 .sheets{
 	height: 21.1rem;
@@ -705,7 +732,7 @@ h1{
 	}
 .gratitude__text__thankyou:before,
 .gratitude__text__thankyou:after{
-	height: 0.5px;
+	height: 1px;
 	margin-top: 7px;
 }
 .gratitude__text__thankyou:before{
@@ -725,6 +752,24 @@ h1{
 .nav_alpaka{
 	width: 14px;
 	height: 14px;
+}
+.navbar{
+	padding: 0.2rem 1rem;
+}
+.navbar-brand{
+	font-size: 0.5rem;
+}
+a.nav-link{
+	font-size: 0.5rem;
+}
+.navbar-toggler {
+	padding: .3rem .3rem;
+	line-height: 0.1;
+}
+.navbar-toggler-icon {
+	display: inline-block;
+	width: 0.6em;
+	height: 0.6em;
 }
 .div_s_krugami{
 	height: 13.1rem;
@@ -873,6 +918,24 @@ h1{
 .nav_alpaka{
 	width: 13px;
 	height: 13px;
+}
+.navbar{
+	padding: 0.2rem 1rem;
+}
+.navbar-brand{
+	font-size: 0.4rem;
+}
+a.nav-link{
+	font-size: 0.4rem;
+}
+.navbar-toggler {
+	padding: .2rem .2rem;
+	line-height: 0;
+}
+.navbar-toggler-icon {
+	display: inline-block;
+	width: 0.5em;
+	height: 0.5em;
 }
 .div_s_krugami{
 	height: 11.25rem;
