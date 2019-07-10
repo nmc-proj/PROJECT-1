@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 *{
 	padding: unset;
 	margin: unset;
@@ -21,15 +21,22 @@ p{
 	height: 50px;
 }
 .navbar{
-	float: right;
-	background-color: rgba(255, 0, 0, 0)
+	background-color: transparent;
+	right:1%;
+}
+.sticky-top{
+	position: fixed;
+	top: 0;
 }
 .navbar-nav .nav-link{
 	padding-right: 0;
-	float: right;
 }
-.nav-link{
-	font-weight: 600;
+.navbar-light .navbar-nav .nav-link{
+  font-weight: 600;
+  color: inherit;
+}
+.nav-item{
+  color: inherit;
 }
 .krugi_text{
 	display: flex;
