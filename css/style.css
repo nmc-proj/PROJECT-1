@@ -304,14 +304,13 @@ background: blue;
 .gratitude__text__thankyou:after{
 	margin-right: -100%;
 	right: -14px;
-}
-/*@media (min-width:1441px){
-	.phone{
+}@media (min-width: 1026px){
+.phone{
 		display:none;
 	}
 .phone_no-shadow{
 	display: inline;
-}*/
+}}
 @media all and (max-width: 1025px){
 	body{
 	font-size: 10.24px;
@@ -974,11 +973,11 @@ h1{
 .nav-link{
 	font-size: 0.4rem;
 }
-.navbar-toggler {
+.navbar-toggler{
 	padding: .2rem .2rem;
 	line-height: 0;
 }
-.navbar-toggler-icon {
+.navbar-toggler-icon{
 	display: inline-block;
 	width: 0.5em;
 	height: 0.5em;
