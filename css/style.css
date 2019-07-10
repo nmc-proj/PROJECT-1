@@ -20,8 +20,12 @@ p{
 	width: 50px;
 	height: 50px;
 }
-.bg-primary{
-position:absolute;
+.navbar{
+	float: right;
+}
+.navbar-nav .nav-link{
+	padding-right: 0;
+	float: right;
 }
 .nav-link{
 	font-weight: 600;
