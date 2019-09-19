@@ -21,3 +21,19 @@ document.addEventListener('scroll', ()=> menu.style.color = `${getRandomColor()}
 // добавляем на страницу Эвент Листенер, в нем мы указали, 
 // что будем отслеживать скролл и если поскроллить - 
 // то он выполнит прописанное условие: меню -> style -> цвет = результат функции с цветами
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  items:4,
+  nav:true,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+  navSpeed:500,/* 
+  navContainer:'.arrow_box', */
+})

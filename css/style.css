@@ -38,6 +38,39 @@ p{
 .nav-item{
   color: inherit;
 }
+
+.slider-element{
+	height:250px;
+	width: 250px;
+}
+.slider-pic{
+	height:250px;
+}
+
+
+.arrows{
+   width: 48px;
+   height: 48px;
+   border-color: #000;
+   position: absolute;
+   top: 50%;
+   margin-top: -31px;}
+
+.prev{
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(45deg);
+   left: 10px}
+
+   
+.next{
+   border-bottom: 6px solid;
+   border-left: 6px solid;
+   transform: rotate(-135deg);
+   right: 10px}
+
+
+
 .krugi_text{
 	display: flex;
 	text-transform: uppercase;
