@@ -356,7 +356,16 @@ background: blue;
 	}
 .phone_no-shadow{
 	display: inline;
-}}
+}
+.button {
+	color: red;
+	border: 1px solid green;
+
+}
+tr{
+	Background: red}
+
+}
 @media all and (max-width: 1025px){
 	body{
 	font-size: 10.24px;
